@@ -44,9 +44,11 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+  gem 'sqlite3'
+
 group :production do
   gem 'pg'
-  gem 'sqlite3'
+
 
 end
 # Use sqlite3 as the database for Active Record
