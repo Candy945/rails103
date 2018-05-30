@@ -46,10 +46,11 @@ end
 
 group :production do
   gem 'pg'
+  gem 'sqlite3'
 
 end
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
 
 
 group :development do
